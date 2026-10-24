@@ -2,6 +2,9 @@
 
 This repository contains the DeepCW model and a minimal example.
 
+`model_narrow.onnx` is a faster, narrow-band model for multi-channel decoding. Use it with
+`--model ../../model_narrow.onnx --metadata ../../model_narrow.onnx.json`.
+
 ## Preparing WAV Audio
 
 The examples can read and resample ordinary PCM WAV files, but preparing the audio with
