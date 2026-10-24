@@ -1,6 +1,6 @@
 # deepcw-engine
 
-This repository contains the DeepCW model and a minimal example.
+This repository contains the [DeepCW](https://github.com/e04/web-deep-cw-decoder) model and a minimal example.
 
 `model_narrow.onnx` is a faster, narrow-band model for multi-channel decoding. Use it with
 `--model ../../model_narrow.onnx --metadata ../../model_narrow.onnx.json`.
