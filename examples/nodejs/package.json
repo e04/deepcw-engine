@@ -2,6 +2,7 @@
   "name": "deepcw-onnx-nodejs-example",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "decode": "node decode_morse.mjs"
